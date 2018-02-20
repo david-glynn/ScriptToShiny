@@ -63,7 +63,7 @@ shinyServer(function(input, output) {
   output$resultsText1 <- renderText({
     paste("Given an input 1 value of",input$input1,
           "the first model result is",ShinyResults$output1, 
-          "and the second model result is", ShinyResults$output2, resultsHolder()$output1
+          "and the second model result is", ShinyResults$output2
           
     ) 
   })
